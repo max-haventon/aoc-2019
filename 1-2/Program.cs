@@ -27,7 +27,7 @@ namespace _1_2
                 }
             }
 
-            Console.WriteLine(String.Concat("Total fuel needed: ", totalFuelRequirement));
+            Console.WriteLine($"Total fuel needed: {totalFuelRequirement}");
         }
 
         static int mass2fuel(int mass) {

@@ -45,7 +45,7 @@ namespace _2_1
                     int operand2 = data[data[pos + 2]];
                     int destinationPosition = data[pos + 3];
 
-                    Console.WriteLine(String.Concat("Processing from post: ", pos, ", with opCode: ", opCode, ", operand1: ", operand1, ", operand2: ", operand2, ", destinationPosition: ", destinationPosition));
+                    Console.WriteLine($"Processing from post: {pos}, with opCode: {opCode}, operand1: {operand1}, operand2: {operand2}, destinationPosition: {destinationPosition}");
 
                     switch (opCode) {
                         case 1:

@@ -28,12 +28,6 @@ namespace _3_1
                     hash.Add(point.ToString(), point);
                 } 
             }
-            /*foreach(Point point in pointArray1) {
-                Console.WriteLine($"  ({point.x}, {point.y})");
-            }   
-            foreach(Point point in pointArray2) {
-                Console.WriteLine($"  ({point.x}, {point.y})");
-            }*/ 
 
             List<Point> intersections = new List<Point>();
             foreach(Point point in points1) {
@@ -48,13 +42,11 @@ namespace _3_1
 
             for(int i = 0; i < intersections.Count; i++) {
                 distances[i] = intersections[i].GetDistance();
-                //Console.WriteLine($"Intersection at ({intersections[i].x}, {intersections[i].y}): distance {intersections[i].GetDistance()}");
             }
             
             Array.Sort(distances);
 
-            Console.WriteLine($"{distances[0]}, {distances[distances.Length - 1]}");
-            
+            Console.WriteLine($"Shortest and longest distance: {distances[0]}, {distances[distances.Length - 1]}");
         }
 
         private static List<Point> movements2points(string[] movements) {

@@ -62,27 +62,5 @@ namespace _3_1
             
             return null;
         }
-
-        /*public int CompareTo(object obj) {
-            if (obj == null) return 1;
-            
-            Point otherPoint = obj as Point;
-            if (otherPoint == null)
-            {
-                throw new ArgumentException("Object is not a Point");
-            }
-            else
-            {
-                if (getX() == otherPoint.getX() && getY() == otherPoint.getY())
-                {
-                    return 0;
-                }
-                else
-                {
-                    return (getX() + getY()).CompareTo((otherPoint.getX() + otherPoint.getY()));
-                }
-            }
-        }*/
-
     }
 }
