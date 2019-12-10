@@ -1,0 +1,363 @@
+==== Part 1 ====
+==== Part 2 ====
+
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 61696857 when phases are set as 5-6-7-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 62779258 when phases are set as 5-6-7-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 63861659 when phases are set as 5-6-8-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 66026461 when phases are set as 5-6-8-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 67108862 when phases are set as 5-6-9-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 68191263 when phases are set as 5-6-9-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 66026461 when phases are set as 5-7-6-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 67108862 when phases are set as 5-7-6-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 70356065 when phases are set as 5-7-8-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 73603268 when phases are set as 5-7-8-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 73603268 when phases are set as 5-7-9-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 75768070 when phases are set as 5-7-9-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 72520867 when phases are set as 5-8-6-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 74685669 when phases are set as 5-8-6-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 74685669 when phases are set as 5-8-7-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 77932872 when phases are set as 5-8-7-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 81180075 when phases are set as 5-8-9-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 82262476 when phases are set as 5-8-9-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 80097674 when phases are set as 5-9-6-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 81180075 when phases are set as 5-9-6-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 82262476 when phases are set as 5-9-7-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 84427278 when phases are set as 5-9-7-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 85509679 when phases are set as 5-9-8-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 86592080 when phases are set as 5-9-8-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 70356065 when phases are set as 6-5-7-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 71438466 when phases are set as 6-5-7-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 72520867 when phases are set as 6-5-8-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 74685669 when phases are set as 6-5-8-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 75768070 when phases are set as 6-5-9-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 76850471 when phases are set as 6-5-9-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 79015273 when phases are set as 6-7-5-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 80097674 when phases are set as 6-7-5-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 85509679 when phases are set as 6-7-8-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 89839283 when phases are set as 6-7-8-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 88756882 when phases are set as 6-7-9-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 92004085 when phases are set as 6-7-9-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 85509679 when phases are set as 6-8-5-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 87674481 when phases are set as 6-8-5-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 89839283 when phases are set as 6-8-7-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 94168887 when phases are set as 6-8-7-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 96333689 when phases are set as 6-8-9-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 98498491 when phases are set as 6-8-9-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 93086486 when phases are set as 6-9-5-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 94168887 when phases are set as 6-9-5-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 97416090 when phases are set as 6-9-7-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 6-9-7-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 6-9-8-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 102828095 when phases are set as 6-9-8-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 83344877 when phases are set as 7-5-6-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 84427278 when phases are set as 7-5-6-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 87674481 when phases are set as 7-5-8-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 90921684 when phases are set as 7-5-8-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 90921684 when phases are set as 7-5-9-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 93086486 when phases are set as 7-5-9-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 87674481 when phases are set as 7-6-5-8-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 88756882 when phases are set as 7-6-5-9-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 94168887 when phases are set as 7-6-8-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 98498491 when phases are set as 7-6-8-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 97416090 when phases are set as 7-6-9-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 7-6-9-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 7-8-5-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 103910496 when phases are set as 7-8-5-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 102828095 when phases are set as 7-8-6-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 107157699 when phases are set as 7-8-6-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 112569704 when phases are set as 7-8-9-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 113652105 when phases are set as 7-8-9-6-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 108240100 when phases are set as 7-9-5-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 110404902 when phases are set as 7-9-5-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 110404902 when phases are set as 7-9-6-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 113652105 when phases are set as 7-9-6-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 116899308 when phases are set as 7-9-8-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 117981709 when phases are set as 7-9-8-6-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 98498491 when phases are set as 8-5-6-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 8-5-6-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 100663293 when phases are set as 8-5-7-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 103910496 when phases are set as 8-5-7-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 107157699 when phases are set as 8-5-9-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 108240100 when phases are set as 8-5-9-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 102828095 when phases are set as 8-6-5-7-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 104992897 when phases are set as 8-6-5-9-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 107157699 when phases are set as 8-6-7-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 111487303 when phases are set as 8-6-7-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 113652105 when phases are set as 8-6-9-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 115816907 when phases are set as 8-6-9-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 109322501 when phases are set as 8-7-5-6-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 112569704 when phases are set as 8-7-5-9-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 111487303 when phases are set as 8-7-6-5-9
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 115816907 when phases are set as 8-7-6-9-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 121228912 when phases are set as 8-7-9-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 122311313 when phases are set as 8-7-9-6-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 124476115 when phases are set as 8-9-5-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 125558516 when phases are set as 8-9-5-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 126640917 when phases are set as 8-9-6-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 128805719 when phases are set as 8-9-6-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 129888120 when phases are set as 8-9-7-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 130970521 when phases are set as 8-9-7-6-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 114734506 when phases are set as 9-5-6-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 115816907 when phases are set as 9-5-6-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 116899308 when phases are set as 9-5-7-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 119064110 when phases are set as 9-5-7-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 120146511 when phases are set as 9-5-8-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 121228912 when phases are set as 9-5-8-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 119064110 when phases are set as 9-6-5-7-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 120146511 when phases are set as 9-6-5-8-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 123393714 when phases are set as 9-6-7-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 126640917 when phases are set as 9-6-7-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 126640917 when phases are set as 9-6-8-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 128805719 when phases are set as 9-6-8-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 125558516 when phases are set as 9-7-5-6-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 127723318 when phases are set as 9-7-5-8-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 127723318 when phases are set as 9-7-6-5-8
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 130970521 when phases are set as 9-7-6-8-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 134217724 when phases are set as 9-7-8-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 135300125 when phases are set as 9-7-8-6-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 133135323 when phases are set as 9-8-5-6-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 134217724 when phases are set as 9-8-5-7-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 135300125 when phases are set as 9-8-6-5-7
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 137464927 when phases are set as 9-8-6-7-5
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 138547328 when phases are set as 9-8-7-5-6
+Output sizes before processing: 0, 0, 0, 0, 1
+Output sizes after processing: 5, 5, 5, 5, 6
+OutputE: 139629729 when phases are set as 9-8-7-6-5
