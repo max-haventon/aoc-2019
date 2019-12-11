@@ -10,12 +10,25 @@ namespace Day11
         private long[] iccInput;
         public int x, y;
         public Direction direction;
-        public List<PaintedPoint> paintedPoints = new List<PaintedPoint>();
+        public List<PaintedPoint> paintedPoints = new List<PaintedPoint>() {};
         
         public PaintRobot(IntCodeComputer icc) {
             this.icc = icc;
             iccInput = new long[] {};
             direction = Direction.Up;
+
+            x = 0;
+            y = 0;
+        }
+
+        public PaintRobot(IntCodeComputer icc, PixelColor originColor) {
+            this.icc = icc;
+            iccInput = new long[] {};
+            direction = Direction.Up;
+            
+            x = 0;
+            y = 0;
+            paintedPoints.Add(new PaintedPoint(0, 0, originColor));
         }
 
         public List<PaintedPoint> PaintThatHull() {
@@ -63,7 +76,7 @@ namespace Day11
                 stepsTaken++;
 
                 if(stepsTaken > 100) {
-                    Console.WriteLine($"More than 10 steps taken trying to get output from the icc. Have {output.Count} so far.");
+                    Console.WriteLine($"More than 100 steps taken trying to get output from the icc. Have {output.Count} so far.");
                     throw new Exception("IccHungException");
                 }
             }
@@ -74,6 +87,7 @@ namespace Day11
         private PixelColor GetColor(int x, int y) {
             foreach (PaintedPoint paintedPoint in paintedPoints) {
                 if (paintedPoint.x == x && paintedPoint.y == y) {
+                    Console.WriteLine($"Found color {paintedPoint.color} at {x}, {y}");
                     return paintedPoint.color;
                 }
             }

@@ -17,6 +17,59 @@ namespace Day11
             List<PaintedPoint> paintedPoints = paintRobot.PaintThatHull();
 
             Console.WriteLine($"Execution finished, got {paintedPoints.Count} painted points back");
+
+            Plot(paintedPoints);
+        }
+
+        public static void SolvePart2() {
+            var intCodes = Util.ParseIntCodeInput(puzzleInput);
+            IntCodeComputer icc = new IntCodeComputer(intCodes);
+
+            PaintRobot paintRobot = new PaintRobot(icc, PixelColor.White);
+
+            List<PaintedPoint> paintedPoints = paintRobot.PaintThatHull();
+
+            Console.WriteLine($"Execution finished, got {paintedPoints.Count} painted points back");
+
+            Plot(paintedPoints);
+        }
+
+        public static void Plot(List<PaintedPoint> paintedPoints) {
+            (int minX, int minY, int maxX, int maxY) = GetSpace(paintedPoints);
+
+            for (int y=maxY; y>=minY; y--) {
+                Console.Write($"y: {y}: ");
+                for (int x=minX; x<=maxX; x++) {
+                    Paint(paintedPoints, x, y);
+                }
+                Console.WriteLine("");
+            }
+        }
+
+        private static void Paint(List<PaintedPoint> paintedPoints, int x, int y)
+        {
+            foreach (PaintedPoint paintedPoint in paintedPoints) {
+                if (paintedPoint.x == x && paintedPoint.y == y) {
+                    string str = paintedPoint.color == PixelColor.White ? "W" : " ";
+                    Console.Write($"{str}");
+                    return;
+                } 
+            }
+            Console.Write(" ");
+        }
+
+        private static (int minX, int minY, int maxX, int maxY) GetSpace(List<PaintedPoint> paintedPoints)
+        {
+            var (minX, minY, maxX, maxY) = (0, 0, 0, 0);
+
+            foreach (PaintedPoint paintedPoint in paintedPoints) {
+                minX = paintedPoint.x < minX ? paintedPoint.x : minX;
+                minY = paintedPoint.x < minY ? paintedPoint.x : minY;
+                maxX = paintedPoint.y > maxX ? paintedPoint.y : maxX;
+                maxY = paintedPoint.y > maxY ? paintedPoint.y : maxY;
+            }
+
+            return (minX, minY, maxX, maxY);
         }
     }
 }
