@@ -40,6 +40,10 @@ namespace Common {
                 data[i] = prestineData[i];
             }
 
+            for (int i = prestineData.Length; i < data.Length; i++) {
+                data[i] = 0;
+            }
+
             pos = 0;
             inputPos = 0;
             relativeBase = 0;
