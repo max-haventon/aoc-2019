@@ -21,5 +21,6 @@
     <ProjectReference Include="..\Common\Common.csproj" />
     <ProjectReference Include="..\8-2\8-2.csproj" />
     <ProjectReference Include="..\10\10.csproj" />
+    <ProjectReference Include="..\11\11.csproj" />
   </ItemGroup>
 </Project>
